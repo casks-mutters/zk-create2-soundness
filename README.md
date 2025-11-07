@@ -60,3 +60,7 @@ Notes
 - For air-gapped verifications, compute the expected runtime bytecode hash offline (e.g., from your compiler output) and pass it via --expected-code-hash.
 - Networks like Aztec or research chains must expose a standard Ethereum JSON-RPC endpoint for this tool to connect. If the endpoint is incompatible, the script will fail to read code.
 - Security tip: never leak private keys; this tool is read-only and does not sign transactions.
+
+---
+
+These sections will give the user all the necessary information to get started and troubleshoot any issues they may encounter. You can customize and expand these sections based on your needs.
