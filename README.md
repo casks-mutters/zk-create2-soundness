@@ -60,3 +60,8 @@ Notes
 - For air-gapped verifications, compute the expected runtime bytecode hash offline (e.g., from your compiler output) and pass it via --expected-code-hash.
 - Networks like Aztec or research chains must expose a standard Ethereum JSON-RPC endpoint for this tool to connect. If the endpoint is incompatible, the script will fail to read code.
 - Security tip: never leak private keys; this tool is read-only and does not sign transactions.
+## Features
+- Calculate deterministic CREATE2 contract addresses.
+- Compare runtime bytecode hash to an expected value (optional).
+- Supports Ethereum and compatible blockchains (e.g., Aztec, Zama).
+- Easy-to-use command-line interface.
