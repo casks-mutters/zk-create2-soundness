@@ -60,3 +60,8 @@ Notes
 - For air-gapped verifications, compute the expected runtime bytecode hash offline (e.g., from your compiler output) and pass it via --expected-code-hash.
 - Networks like Aztec or research chains must expose a standard Ethereum JSON-RPC endpoint for this tool to connect. If the endpoint is incompatible, the script will fail to read code.
 - Security tip: never leak private keys; this tool is read-only and does not sign transactions.
+## Prerequisites
+Before using this script, ensure that you have:
+- Python 3.9+ installed on your system.
+- A valid Ethereum-compatible RPC URL (e.g., Infura, Alchemy, local node, or L2 network).
+- The `web3.py` library installed (`pip install web3`).
